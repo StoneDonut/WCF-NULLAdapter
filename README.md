@@ -40,6 +40,7 @@ For BizTalk 2013 you will need Visual Studion 2012 with the BizTalk developer to
 2. Add an entry to the bindingExtensions section of the machine.config file under C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config:
 ```xml
 <bindingExtensions>
+  ...
   <add name="nullBinding" type="StoneDonut.Adapters.Null.WcfNullAdapterBindingCollectionElement, StoneDonut.Adapters.Null, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7b5655597b4dca60" />
 </bindingExtensions>
 ```
